@@ -15,12 +15,12 @@
 		7B73CB86188291850089D479 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B73CB85188291850089D479 /* AppDelegate.m */; };
 		7B73CB89188291850089D479 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B73CB87188291850089D479 /* Main.storyboard */; };
 		7B73CB8C188291850089D479 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B73CB8B188291850089D479 /* ViewController.m */; };
-		7B73CB8E188291850089D479 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B73CB8D188291850089D479 /* Images.xcassets */; };
 		7B73CB95188291850089D479 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B73CB94188291850089D479 /* XCTest.framework */; };
 		7B73CB96188291850089D479 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B73CB75188291850089D479 /* Foundation.framework */; };
 		7B73CB97188291850089D479 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B73CB79188291850089D479 /* UIKit.framework */; };
 		7B73CB9F188291850089D479 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7B73CB9D188291850089D479 /* InfoPlist.strings */; };
 		7B73CBA1188291850089D479 /* CastlesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B73CBA0188291850089D479 /* CastlesTests.m */; };
+		7B73CBB01882F2210089D479 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B73CBAF1882F2210089D479 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,12 +47,12 @@
 		7B73CB88188291850089D479 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7B73CB8A188291850089D479 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		7B73CB8B188291850089D479 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		7B73CB8D188291850089D479 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7B73CB93188291850089D479 /* CastlesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CastlesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B73CB94188291850089D479 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		7B73CB9C188291850089D479 /* CastlesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CastlesTests-Info.plist"; sourceTree = "<group>"; };
 		7B73CB9E188291850089D479 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7B73CBA0188291850089D479 /* CastlesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CastlesTests.m; sourceTree = "<group>"; };
+		7B73CBAF1882F2210089D479 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,7 +117,7 @@
 				7B73CB87188291850089D479 /* Main.storyboard */,
 				7B73CB8A188291850089D479 /* ViewController.h */,
 				7B73CB8B188291850089D479 /* ViewController.m */,
-				7B73CB8D188291850089D479 /* Images.xcassets */,
+				7B73CBAF1882F2210089D479 /* Images.xcassets */,
 				7B73CB7C188291850089D479 /* Supporting Files */,
 			);
 			path = Castles;
@@ -228,7 +228,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B73CB8E188291850089D479 /* Images.xcassets in Resources */,
+				7B73CBB01882F2210089D479 /* Images.xcassets in Resources */,
 				7B73CB80188291850089D479 /* InfoPlist.strings in Resources */,
 				7B73CB89188291850089D479 /* Main.storyboard in Resources */,
 			);
