@@ -66,10 +66,11 @@
 - (IBAction)likeCastle:(id)sender {
     
     UIAlertView *likeAlert =
-        [[UIAlertView alloc] initWithTitle:@"Thanks!"
-                                   message:[NSString stringWithFormat:@"You like castle number %i",(_pageControl.currentPage+1)]
+        [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"THANKS", nil)
+                                   message:[NSString stringWithFormat:NSLocalizedString(@"CASTLE_LIKED", nil),
+                                            (_pageControl.currentPage+1)]
                                   delegate:self
-                         cancelButtonTitle:@"Okay"
+                         cancelButtonTitle:NSLocalizedString(@"OKAY", nil)
                          otherButtonTitles:nil];
     
     [likeAlert show];

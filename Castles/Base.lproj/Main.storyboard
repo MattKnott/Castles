@@ -20,7 +20,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="overlay" translatesAutoresizingMaskIntoConstraints="NO" id="NuK-NV-VMf">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="overlay.png" translatesAutoresizingMaskIntoConstraints="NO" id="NuK-NV-VMf">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
@@ -61,7 +61,7 @@
     </scenes>
     <resources>
         <image name="background" width="644" height="1140"/>
-        <image name="overlay" width="644" height="1140"/>
+        <image name="overlay.png" width="644" height="1140"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
