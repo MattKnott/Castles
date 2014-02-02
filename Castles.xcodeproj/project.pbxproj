@@ -21,6 +21,7 @@
 		7B73CB9F188291850089D479 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7B73CB9D188291850089D479 /* InfoPlist.strings */; };
 		7B73CBA1188291850089D479 /* CastlesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B73CBA0188291850089D479 /* CastlesTests.m */; };
 		7B73CBB01882F2210089D479 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B73CBAF1882F2210089D479 /* Images.xcassets */; };
+		7B787C231894679B00B8C82C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B787C221894679B00B8C82C /* Default-568h@2x.png */; };
 		7BC8BD4B188AB814007D845D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7BC8BD4D188AB814007D845D /* Localizable.strings */; };
 		7BCE0BEB188A824900098DB3 /* overlay.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BCE0BED188A824900098DB3 /* overlay.png */; };
 /* End PBXBuildFile section */
@@ -55,8 +56,9 @@
 		7B73CB9E188291850089D479 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7B73CBA0188291850089D479 /* CastlesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CastlesTests.m; sourceTree = "<group>"; };
 		7B73CBAF1882F2210089D479 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		7BC8BD4C188AB814007D845D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
-		7BC8BD4F188AB923007D845D /* it */ = {isa = PBXFileReference; lastKnownFileType = file; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7B787C221894679B00B8C82C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+		7BC8BD4C188AB814007D845D /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7BC8BD4F188AB923007D845D /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
 		7BCE0BDC1888809200098DB3 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Main.strings; sourceTree = "<group>"; };
 		7BCE0BDD1888809200098DB3 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7BCE0BDE1888809200098DB3 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -135,6 +137,7 @@
 		7B73CB7C188291850089D479 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7B787C221894679B00B8C82C /* Default-568h@2x.png */,
 				7BCE0BED188A824900098DB3 /* overlay.png */,
 				7B73CB7D188291850089D479 /* Castles-Info.plist */,
 				7B73CB7E188291850089D479 /* InfoPlist.strings */,
@@ -244,6 +247,7 @@
 				7BCE0BEB188A824900098DB3 /* overlay.png in Resources */,
 				7B73CBB01882F2210089D479 /* Images.xcassets in Resources */,
 				7B73CB80188291850089D479 /* InfoPlist.strings in Resources */,
+				7B787C231894679B00B8C82C /* Default-568h@2x.png in Resources */,
 				7B73CB89188291850089D479 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
